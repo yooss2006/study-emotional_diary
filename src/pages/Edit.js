@@ -18,6 +18,7 @@ function Edit() {
         setOriginData(targetDiary);
         console.log(targetDiary, originData);
       } else {
+        alert("없는 일기입니다.");
         navigate("/", { replace: true });
       }
     }
